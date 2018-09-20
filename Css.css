@@ -67,6 +67,20 @@
 	background-attachment: fixed;
 }
 
+#tre{
+	background: rgba(169,193,205,0.15);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#fire{
+	background: rgba(169,193,205,0.20);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
 #billedeen{
 	position: relative;
 }
@@ -78,7 +92,7 @@
 	margin-left: 17%;
 	margin-bottom: -10%;
 	background-color: white;
-	
+
 }
 
 
@@ -89,7 +103,7 @@
 	font-size: 20px;
 	color: #707070;
 	width: 22%; height: 10%;
-	margin-left: 10%; 
+	margin-left: 10%;
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
