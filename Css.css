@@ -84,6 +84,23 @@
 #billedeen{
 	position: relative;
 }
+.kasser {
+	width: 17%; height: auto;
+	margin-left: 5%;
+	display: inline-block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-style: normal;
+	font-size: 15px;
+	text-align: left;
+	color: #000000;
+	vertical-align: top;
+}
+.kasser img {
+	width: 100%;
+}
+.kasseplace{
+
+}
 
 
 .footer{
