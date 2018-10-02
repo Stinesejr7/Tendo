@@ -1,15 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-<title>Tendo, for people, not symptoms</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>støtos</title>
 <link href="Css.css" rel="stylesheet" type="text/css">
 </head>
-
+<div class="topnavlogo">
+  <a href="forside.html"><img src="Billeder /Simple_black_robot_18.png" alt="logo" align="left" style="width:200px;"></a> 
 <body>
-	<div class="topnavlogo">
-<a href="forside.html"><img src="Billeder /Simple_black_robot_18.png" alt="logo" align="left" style="width:200px;"></a> 
 	</div>
 	
 	<div class="topnav">
@@ -17,7 +15,7 @@
 <a href="støtos.html">Støt os</a>
 <a href="Product.html">Produkt</a>
 <a href="whatsTENDO.html">Om os</a>
-</div>
+	</div>
 	<div class="dropdown" style="float:right;">
   <button class="dropbtn">Sprog</button>
   <div class="dropdown-content">
@@ -27,44 +25,14 @@
 	<a href="#">Engelsk</a>
   </div>
   </div>
-
-<section>
 	
-	<div class="karusel">
-
-	<div class="billede"><img src="billedeforside/forside.jpg" alt="første forside billede, skrivebord med logo"></div>
-	<div class="billede"><img src="billedeforside/holdtendo.jpg" alt="holder den lille tendo maskot"></div>
-	<div class="billede"><img src="billedeforside/gribglasset.jpg" alt="giber omkring glasset"></div>
-	<div class="billede"><img src="billedeforside/tendocrew.jpg" alt="Holdet bag tendo"></div>
-	<div class="billede"><img src="billedeforside/aabenflasken.jpg" alt="Åbner flasken"></div>
-
-
-
-</div>
-
-	<script>
-
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("billede");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 3 seconds
-}
-</script> 
-
-
+	<h1 class="overskrft">STØT OS</h1>
+<div id="doner">
+<img src="Billeder /doner.jpg" alt="donations side">
+</div>	
 	
-	</section>
-
-	<footer>
+	
+<footer>
 		<div class="footer">
 			<div class="fontfooter" >
 				<p>Contact</p>
@@ -87,6 +55,6 @@ function carousel() {
 			</div>
 		 </div>
 		</footer>
-	
+		
 </body>
 </html>

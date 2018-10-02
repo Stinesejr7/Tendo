@@ -16,14 +16,69 @@
 }
 
 /* Style the topnav links */
+.topnavlogo a {
+	overflow: hidden;
+    background-color: #AADAE5 ;
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+	width:200px;
+	height: 90px; 
+}
+
 .topnav a {
+	overflow: hidden;
+    background-color: #AADAE5 ;
     float: right;
     display: block;
     color: #FFF;
     text-align: center;
     padding: 25px 40px;
     text-decoration: none;
+	width:200px;
+	height: 90px;  
 }
+
+.dropbtn {
+    background-color: #AADAE5;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	padding-top: 50px%;
+	padding-right: 100px; 
+	margin-top: -80px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:  #EF7E32;}
 
 /* Farven der kommer når mus rammer side */
 .topnav a:hover {
@@ -35,29 +90,86 @@
 	height: 80%;
 }
 
+.billede{
+	width: 100%;
+	height: auto;
+}
+
+.karusel{
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	border: 0px solid white;
+}
+
 .overskrft{
-	font-family: montserrat;
+	font-family: 'lato';
 	font-style: Medium;
 	text-align: center;
 	font-size:   43pt;
 	color: #0000;
 	color: rgba(0,0,0,1);
+	position: relative;
+	margin-top: -40px;
 }
 
 .brodtekst{
-	font-family: montserrat;
-	font-style: light;
+	font-family: 'lato';
+	font-style: 'light';
 	text-align: left;
 	font-size: 16pt;
 	color: #0000;
 	color: rgba(0,0,0,1);
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 1.5%;
 }
 
+.latobold {
+font-family: 'Lato';
+font-style: 'bold';
+text-align: center;
+font-size: 16pt;
+color: #0000;
+color: rgba(0,0,0,1);
+}
+
+.latolight {
+font-family: 'Lato';
+font-style: 'light';
+text-align: 'left';
+font-size: 12pt;
+color: #0000;
+color: rgba(0,0,0,1);
+}
+.farve{
+	color: #ef7e32;
+	text-align: center; 
+}
+
+#kontaktoverskift{
+	font-family: 'lato';
+	font-style: Medium;
+	text-align: center;
+	font-size:   43pt;
+	color: #0000;
+	color: rgba(0,0,0,1);
+	position: relative;
+}
 #en{
 	background: rgba(169,193,205,0.15);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+#ikoner{
+	padding-left: 22%;
+	padding-right: 6%;
 }
 
 #to{
@@ -78,6 +190,20 @@
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+#kontakt{
+	background: rgba(169,193,205,0.15);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#midten{
+	padding-left: 12%;
+	padding-right: 12%;
+	margin-top: -200px; 
+	margin-bottom: -150px; 
 }
 
 
@@ -101,6 +227,10 @@
 .kasseplace{
 
 }
+#doner{
+	padding-left: 35%;
+	padding-right: 40%; 
+}
 
 
 .footer{
@@ -111,8 +241,6 @@
 	background-color: white;
 
 }
-
-
 
 .fontfooter{
 	font-family: montserrat;
@@ -128,3 +256,37 @@
 	padding-bottom: 0%;
 
 }
+#kontaktformular{
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+#kontakttendo{
+	overflow: hidden; 
+	width: 40%; 
+	
+}
+
+.wrapper {
+    width:400px;
+    padding:5px;
+	padding-top: 0%; 
+   }
+.wrapper h1{text-transform:uppercase;color:#000000;}
+.wrapper h2{color: #0000; font-weight: italic}
+.wrapper input[type=text], 
+.wrapper input[type=email],
+.textarea{
+    width:100%;margin-bottom: 15px;
+    padding:5px;
+}
+.wrapper a{
+    text-decoration: none;
+    background: #EF7E32;
+    color: #FFF;
+    display: block;
+    padding:10px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
